@@ -1,8 +1,8 @@
 import cv2
 import sys
+
 # img is readed from samples file
 # im2 is downloaded from internet and readed directly writing data path
-
 img = cv2.imread(cv2.samples.findFile("starry_night.jpg"))
 img2 = cv2.imread("/home/erkam/Downloads/download.png")
 
